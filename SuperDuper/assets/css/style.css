@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro:wght@400;700&display=swap');
+body {
+    margin: 0;
+}
+header {
+    height: 100vh;
+    background: #333;
+    color: white;
+}
+p {
+    font-family: 'Maven Pro';
+    font-size: 18px;
+    color: #333;
+}
+div:first-of-type {
+    text-transform: lowercase;
+    padding: 15px;
+    letter-spacing: 5px;
+    font-family: 'Maven Pro';
+}
+header div:nth-child(2) {
+    margin: auto;
+    margin-top: 25vH;
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: linear-gradient(to top right, #8507e1, #3dc8d5);
+}
+header div:nth-child(2):hover {
+    background: linear-gradient(to top right, #3dc8d5, #8507e1);
+}
+header div:nth-child(2) h1 {
+    font-family: 'Gilda Display';
+    font-size: 80px;
+    margin-bottom: 0;
+}
+header div:nth-child(2) h2 {
+    font-family: 'Maven Pro';
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0;
+}
+nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+}
+nav ul li {
+    list-style-type: none;
+    font-family: 'Maven Pro';
+    text-align: right;
+}
+nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+    line-height: 2;
+}
+nav ul li a:hover {
+    color: white;
+}
+.projects {
+    height: 100vh;
+    background-image: url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg);
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+}
+.projects article {
+    padding: 300px 0 0 100px;
+    width: 600px;
+}
+.projects h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+}
+.portfolio {
+    margin: 0 10% 0 10%;
+}
+.portfolio article {
+    min-height: 100vH;
+    margin-top: 300px;
+}
+.portfolio article:last-of-type {
+    padding-bottom: 100px;;
+}
+.portfolio img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 50px 0 50px 0;
+}
+.portfolio h1 {
+    font-size: 64px;
+    margin: 0;
+}
+.portfolio p {
+    text-transform: uppercase;
+    margin: 0;
+}
