@@ -205,23 +205,28 @@ section:last-of-type {
     text-align: center;
 }
 
-section:last-of-type article {
-    margin-top: 50px;
-}
-
-section:last-of-type h2 {
-    text-transform: none;
-    margin: 50px;
-    font-size: 100px;
+section:last-of-type ul {
+    list-style: none;
 }
 
 section:last-of-type a {
+    font-size: 100px;
+    font-family: 'Didact Gothic';
+    text-transform: none;
     color: black;
     border: none;
 }
 
 section:last-of-type a:hover {
     text-decoration: underline;
+}
+
+section:last-of-type ul li {
+    margin-bottom: 100px;
+}
+
+section:last-of-type article {
+    margin-top: 100px;
 }
 
 /* === 7 Footer === */
