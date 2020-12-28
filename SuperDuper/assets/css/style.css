@@ -77,11 +77,14 @@ nav ul li a:hover {
     margin: 0;
 }
 .portfolio {
-    margin: 0 10% 0 10%;
+    margin: 0 15% 0 15%;
 }
 .portfolio article {
-    min-height: 100vH;
-    margin-top: 300px;
+    min-height: 90vH;
+    margin-top: 200px;
+}
+.portfolio article:first-of-type {
+    margin-top: 0;
 }
 .portfolio article:last-of-type {
     padding-bottom: 100px;;
@@ -89,7 +92,7 @@ nav ul li a:hover {
 .portfolio img{
     width: 100%;
     border-radius: 10px;
-    margin: 50px 0 50px 0;
+    margin: 50px 0 20px 0;
 }
 .portfolio h1 {
     font-size: 64px;
