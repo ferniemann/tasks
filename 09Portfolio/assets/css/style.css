@@ -29,7 +29,7 @@ a {
 }
 
 /* 1.2 Hover-Effekte */
-.link h1 {
+.link h2 {
     color: white;
     opacity: 0.2;
     text-align: right;
@@ -43,7 +43,7 @@ a {
     color: black;
 }
 
-.link a:hover + h1 {
+.link a:hover + h2 {
     opacity: 1; 
 }
 
@@ -65,7 +65,7 @@ header p {
 }
 
 /* === 3. Sektion: Work === */
-section h1 {
+section:first-of-type h2 {
     font-size: 90px;
     font-family: 'Didact Gothic';
     text-align: center;
@@ -125,8 +125,8 @@ section:nth-of-type(5) .container a:hover {
     background: black;
 }
 
-section:nth-of-type(3) .container h1,
-section:nth-of-type(5) .container h1 {
+section:nth-of-type(3) .container h2,
+section:nth-of-type(5) .container h2 {
     color: black;
 }
 
@@ -163,10 +163,11 @@ section:nth-of-type(6) {
     height: 100vh;
 }
 
-section:nth-of-type(6) h1 {
+section:nth-of-type(6) h2 {
     color: white;
     font-size: 120px;
     text-transform: none;
+    text-align: center;
 }
 
 section:nth-of-type(6) article {
@@ -208,9 +209,10 @@ section:last-of-type article {
     margin-top: 50px;
 }
 
-section:last-of-type h1 {
+section:last-of-type h2 {
     text-transform: none;
     margin: 50px;
+    font-size: 100px;
 }
 
 section:last-of-type a {
