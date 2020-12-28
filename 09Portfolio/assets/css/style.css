@@ -1,0 +1,255 @@
+/* Fonts importieren */
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans&display=swap');
+
+/* === 1. Grundstruktur === */
+body {
+    margin: 0;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+    font-family: 'Work Sans';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Didact Gothic';
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+/* 1.1 Buttons und Links */
+a {
+    font-family: 'Fjalla One';
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* 1.2 Hover-Effekte */
+.link h1 {
+    color: white;
+    opacity: 0.2;
+    text-align: right;
+    font-family: 'Fjalla One';
+    font-size: 100px;
+    margin-top: 0;
+}
+
+.link a:hover {
+    background: white;
+    color: black;
+}
+
+.link a:hover + h1 {
+    opacity: 1; 
+}
+
+/* === 2. Titel ===  */
+header {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+header p {
+    color: black;
+    font-size: 12px;
+}
+
+/* === 3. Sektion: Work === */
+section h1 {
+    font-size: 90px;
+    font-family: 'Didact Gothic';
+    text-align: center;
+}
+
+/* === 4. PORTFOLIO-SEKTIONEN === */
+/* 4.1 Allgemein */
+.container>div {
+    padding-top: 3%;
+}
+
+section:nth-of-type(2),
+section:nth-of-type(3),
+section:nth-of-type(4),
+section:nth-of-type(5) {
+    height: 100vh;
+}
+
+section:nth-of-type(2)>.container,
+section:nth-of-type(3)>.container,
+section:nth-of-type(4)>.container,
+section:nth-of-type(5)>.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 13%;
+}
+
+section:nth-of-type(2) h2,
+section:nth-of-type(3) h2,
+section:nth-of-type(4) h2,
+section:nth-of-type(5) h2 {
+    font-size: 100px;
+    margin: 0;
+}
+
+/* 4.1.1 Allgemein: Dunkles Design */
+section:nth-of-type(2) h2,
+section:nth-of-type(4) h2 {
+    color: white;
+}
+
+/* 4.1.2 Allgemein: Helles Design */
+section:nth-of-type(3) h2,
+section:nth-of-type(5) h2 {
+    color: black;
+}
+
+section:nth-of-type(3) .container a,
+section:nth-of-type(5) .container a {
+    color: black;
+    border-color: black;
+}
+
+section:nth-of-type(3) .container a:hover,
+section:nth-of-type(5) .container a:hover {
+    color: white;
+    background: black;
+}
+
+section:nth-of-type(3) .container h1,
+section:nth-of-type(5) .container h1 {
+    color: black;
+}
+
+/* === 4.2 Sektion: Portfolio #1 === */
+/* Hintergrundbild */
+section:nth-of-type(2) {
+    background: rgba(0,0,0,0.8) url('../img/portfolio2.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+/* === 4.3 Sektion: Portfolio #2 === */
+section:nth-of-type(3) {
+    background: url('../img/portfolio3.png');
+    background-size: contain;
+}
+
+/* === 4.4 Sektion: Portfolio #3 === */
+section:nth-of-type(4) {
+    background: rgba(0,0,0,0.8) url('../img/portfolio4.jpg');
+    background-blend-mode: darken;
+    background-size: contain;
+}
+
+/* === 4.5 Sektion: Portfolio #4 === */
+section:nth-of-type(5) {
+    background: url('../img/portfolio5.png');
+    background-size: contain;
+}
+
+/* === 5 Sektion: Kontakt === */
+section:nth-of-type(6) {
+    background: black;
+    height: 100vh;
+}
+
+section:nth-of-type(6) h1 {
+    color: white;
+    font-size: 120px;
+    text-transform: none;
+}
+
+section:nth-of-type(6) article {
+    padding-top: 10px;
+}
+
+.contact-container {
+    margin-left: 50%;
+    margin-right: 10%;
+}
+
+.contact-container p {
+    line-height: 2;
+}
+
+.contact-container h3 {
+    font-family: 'Work Sans';
+    font-weight: 200;
+    font-size: 48px;
+    text-transform: none;
+}
+
+.contact-container a {
+    color: white;
+    border:none;
+}
+
+.contact-container a:hover {
+    color: #9e9e9e;
+    text-decoration: underline;
+}
+
+/* === 6 Sektion: Social Links === */
+section:last-of-type {
+    text-align: center;
+}
+
+section:last-of-type article {
+    margin-top: 50px;
+}
+
+section:last-of-type h1 {
+    text-transform: none;
+    margin: 50px;
+}
+
+section:last-of-type a {
+    color: black;
+    border: none;
+}
+
+section:last-of-type a:hover {
+    text-decoration: underline;
+}
+
+/* === 7 Footer === */
+footer {
+    text-align: center;
+    color: black;
+    height: 100px;
+}
+
+footer p {
+    color: black;
+    font-size: 24px;
+}
+
+/* 7.1 Herzschlag */
+.heart {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    animation: 1.5s infinite beatHeart;
+}
+  
+@keyframes beatHeart {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
