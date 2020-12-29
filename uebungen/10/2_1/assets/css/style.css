@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+article {
+    display: inline-block;
+    border: 2px solid black;
+    width: 350px;
+    padding: 5px;
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+}
