@@ -15,10 +15,12 @@ div {
     padding: 25px;
 }
 
+/* === Einstellen, dass von Haus aus kein Bild angezeigt wird === */
 div img {
     display: none;
 }
 
+/* === Bei Hover erscheint das Bild === */
 a:hover + div img {
     display: inline-block;
 }
