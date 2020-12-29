@@ -1,0 +1,24 @@
+section {
+    text-align: center;
+    margin-top: 25px;
+}
+
+a {
+    color: white;
+    background: #ff2255;
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+div {
+    padding: 25px;
+}
+
+div img {
+    display: none;
+}
+
+a:hover + div img {
+    display: inline-block;
+}
