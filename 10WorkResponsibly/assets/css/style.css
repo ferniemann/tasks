@@ -32,11 +32,11 @@ nav ul li a {
 /* === Social Icons gestalten === */
 article div:nth-child(3) {
     text-align: right;
-    color: #666;
 }
 
 article div:nth-child(3) i {
     margin-bottom: 5px;
+    color: #666;
 }
 
 p>i {
@@ -84,6 +84,10 @@ section:first-of-type {
     display: inline-block;
     margin: 2%;
     width: 250px;
+}
+
+.container .gifs {
+    text-align: center;
 }
 
 /* Hover-Effekt für Bilder */
