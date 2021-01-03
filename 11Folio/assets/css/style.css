@@ -1,0 +1,193 @@
+/* Farben */
+/* Dunkelblau: #002a5a */
+/* Beige: #efe8d7 */
+/* Pink: #F4C4C4 */
+/* Braun: #282b29 */
+/* Rot: #7d2222 */
+/* Gelb: #DEB873 */
+/* Grau: #d2d2d2 */
+/* Grün: #1d8883 */
+
+/* Schriftarten (Google + lokal) einbinden */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@font-face {font-family: Athena; src: url(../fonts/Athene.otf) }
+
+body {
+    margin: 0;
+}
+
+span, p {
+    font-family: 'Open Sans';
+    color: #002a5a;
+    text-transform: uppercase;
+    line-height: 2.5;
+}
+
+header {
+    width: 100%;
+    border-bottom: 2px solid #002a5a;
+    padding: 10px 0 10px 0;
+    position: fixed;
+}
+
+header>div, .container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header span:nth-of-type(2) {
+    float: right;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section:first-of-type {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #efe8d7;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Athena;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 148px;
+    color: #002a5a;
+    margin: 0;
+    border-bottom: 1px solid #002a5a;
+}
+
+h2 {
+    font-size: 148px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hero>.container {
+    text-align: center;
+}
+
+.hero-img {
+    width: 25%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+figcaption {
+    text-align: left;
+}
+
+figcaption img {
+    width: 100%;
+}
+
+figcaption>p>span {
+    font-family: Athena;
+}
+
+.release {
+    background-color: #f4c4c4;
+    padding-top: 50px;
+    padding-bottom: 50;
+}
+
+.release p,
+.release h2,
+.release td {
+    color: #282b29;
+}
+
+.container-right,
+.container-left {
+    width: 500px;
+}
+
+.container-right {
+    margin: 0 5% 0 auto;
+}
+
+.container-left {
+    margin: 0 auto 0 5%;
+    text-align: left;
+}
+
+.container-right-table {
+    width: 600px;
+    margin: 0 5% 0 auto;
+}
+
+.container-right-table table {
+    width: 100%;
+}
+
+table {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Open Sans';
+}
+
+thead {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+td {
+    border-bottom: 1px solid #282b29;
+}
+
+tbody>tr>td:nth-child(3) {
+    width: 25px;
+    text-align: right;
+    font-size: 12px;
+    padding: 15px 0 15px 0;
+}
+
+.img-right {
+    text-align: right;
+}
+
+.works {
+    text-align: right;
+    background-color: #DEB873;
+}
+
+.works p, 
+.works h2,
+.portfolio p,
+.portfolio h2,
+.portfolio h3 {
+    color: #7d2222;
+}
+
+.right-h {
+    text-align: right;
+}
+
+.portfolio {
+    text-align: left;
+    background-color: #deb873;
+}
+
+.portfolio h3 {
+    font-size: 72px;
+}
+
+.container-portfolio {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.left {
+    background: url(../img/bg-marconatto-1.jpg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: none;
+    height: 600px;
+}
