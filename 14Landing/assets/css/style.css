@@ -242,6 +242,7 @@ footer {
 footer a {
     text-decoration: none;
     border-bottom: dotted 1px #999ac6;
+    color: black;
 }
 
 .we {
