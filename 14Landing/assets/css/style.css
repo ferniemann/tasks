@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;400;700;900&family=Playfair+Display:wght@700;900&display=swap');
 
+/* Grundlegendes */
 html {
     scroll-behavior: smooth;
 }
@@ -12,11 +13,6 @@ body {
     margin: 0;
     font-family: Exo;
 }
-
-header {
-    text-align: center;
-}
-
 h1, h2, h3 {
     text-transform: uppercase;
     color: #0A0908;
@@ -26,6 +22,11 @@ h1 {
     margin: 0;
     font-size: 72px;
     font-weight: 900;
+}
+
+/* Gestaltung Header */
+header {
+    text-align: center;
 }
 
 header a,
@@ -53,6 +54,14 @@ header a,
     top: 0;
 }
 
+.nav {
+    background: #999AC6;
+    padding: 15px;
+    top: 88px;
+    position: sticky;
+    text-align: center;
+}
+
 .nav ul {
     list-style: none;
     padding-left: 0;
@@ -77,14 +86,7 @@ ul>li>a:hover {
     transition: 0.8s;
 }
 
-.nav {
-    background: #999AC6;
-    padding: 15px;
-    top: 88px;
-    position: sticky;
-    text-align: center;
-}
-
+/* Hero: Layout & Hintergrundbild */
 .hero {
     height: 50vh;
     background-image: url(../img/Desk3.jpeg), linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.5));
@@ -121,6 +123,7 @@ ul>li>a:hover {
     transition: 0.8s;
 }
 
+/* OUR MISSION: Allgemeines Layout */
 .mission>article {
     margin: 50px 15% 50px 15%;
     min-height: 100vH;
@@ -137,6 +140,7 @@ ul>li>a:hover {
     color: #999ac6;
 }
 
+/* OUR MISSION: Fließtext im Blocksatz */
 .center p {
     font-size: 24px;
     text-align: justify;
@@ -146,6 +150,14 @@ ul>li>a:hover {
     padding-bottom: 50px;
 }
 
+/* OUR MISSION: Logo im Fließtext */
+.we {
+    color:#999ac6;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/* OUR MISSION: Schlagworte */
 .center .infos {
     text-align: center;
 }
@@ -161,6 +173,7 @@ ul>li>a:hover {
     font-size: 18px;
 }
 
+/* OUR MISSION: Hintergrundbild */
 .mission {
     background: url(../img/Desk1.jpeg), linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.6));
     background-size: cover;
@@ -168,13 +181,14 @@ ul>li>a:hover {
     background-blend-mode: overlay;
 }
 
+/* OUR PRODUCTS: Produktbilder */
 .first {
     background: url(../img/Desk2.jpeg);
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: right center;
-    padding-top: 250px;
-    padding-bottom: 250px;
+    padding-top: 10%;
+    padding-bottom: 10%;
     padding-left: 10%;
 }
 
@@ -183,8 +197,8 @@ ul>li>a:hover {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: left center;
-    padding-top: 250px;
-    padding-bottom: 250px;
+    padding-top: 10%;
+    padding-bottom: 10%;
     padding-right: 10%;
     padding-left: 60%;
 }
@@ -194,11 +208,12 @@ ul>li>a:hover {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: right center;
-    padding-top: 250px;
-    padding-bottom: 250px;
+    padding-top: 10%;
+    padding-bottom: 10%;
     padding-left: 10%;
 }
 
+/* OUR PRODUCTS: Produktinformationen */
 .products h3 {
     font-size: 36px;
     color: #999ac6;
@@ -218,6 +233,7 @@ ul>li>a:hover {
     text-align: justify;
 }
 
+/* CONTACT US: Sektion gestalten */
 .contact {
     background-color: #999ac6;
     color: white;
@@ -235,6 +251,7 @@ ul>li>a:hover {
     padding-bottom: 150px;
 }
 
+/* Footer */
 footer {
     text-align: center;
 }
@@ -243,10 +260,4 @@ footer a {
     text-decoration: none;
     border-bottom: dotted 1px #999ac6;
     color: black;
-}
-
-.we {
-    color:#999ac6;
-    font-weight: 900;
-    text-transform: uppercase;
 }
