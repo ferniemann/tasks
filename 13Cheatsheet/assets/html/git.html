@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Cheatsheet</title>
+    <link rel="stylesheet" href="../css/style_git.css">
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css'>
+    <script src="https://kit.fontawesome.com/69168a2f57.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../index.html">CLI</a>
+            <a href="#">Git</a>
+        </nav>
+    </header>
+    <main>
+        <section class="title">
+            <article>
+                <h1>
+                    Git-Cheatsheet
+                </h1>
+                <p>
+                    CLI ist die Abkürzung für "Call Level Interface". Das CLI ist die einfachste Möglichkeit der Interaktion mit einem Computer. Die Eingaben und Ausgaben erfolgen in einem sogenannten Terminal.
+                </p>
+                <p>
+                    Diese Seite gibt Informationen zu den grundlegendsten Befehlen für ein CLI. Klicke auf einen Befehl, um mehr darüber zu erfahren und Beispiele anzusehen.
+                </p>
+            </article>
+            <p class="icon"><i class="fab fa-git-alt"></i></p>
+        </section>
+        <section class="secondary-menu">
+            <ul>
+                <li><a href="#pwd">pwd</a></li>
+                <li><a href="#ls">ls</a></li>
+                <li><a href="#cd">cd</a></li>
+                <li><a href="#cat">cat</a></li>
+                <li><a href="#mkdir">mkdir</a></li>
+                <li><a href="#touch">touch</a></li>
+                <li><a href="#mv">mv</a></li>
+                <li><a href="#cp">cp</a></li>
+                <li><a href="#rm">rm</a></li>
+            </ul>
+        </section>
+        <section class="cheatsheet">
+            <article id="pwd">
+                <h2>
+                    init
+                </h2>
+                <p>
+                    Eine Repository initiieren
+                </p>
+                <img src="../img/init.png" alt="init">
+            </article>
+            <article id="cd">
+                <h2>
+                    add
+                </h2>
+                <p>
+                    Datei(en) und/oder Verzeichnis(se) vom Arbeitsverzeichnis in die Staging Area kopieren
+                </p>
+                <img src="../img/add.png" alt="cd">
+            </article>
+            <article id="commit">
+                <h2>
+                    commit -m "message"
+                </h2>
+                <p>
+                    Der Befehl commit -m "message" erstellt einen Snapshot, wobei "message" durch eine beliebige Mitteilung ersetzt werden kann, die anderen Mitarbeitenden Hinweise darauf gibt, was geändert wurde.
+                </p>
+                <img src="../img/ls.png" alt="ls">
+            </article>
+            <article id="log">
+                <h2>
+                    log
+                </h2>
+                <p>
+                    Alle commits anzeigen, die gemacht wurden
+                </p>
+                <img src="../img/cat.png" alt="cat">
+            </article>
+            <article id="mkdir">
+                <h2>
+                    branch
+                </h2>
+                <p>
+                    "branch" gefolgt von einem beliebigen gewünschten branch-Titel erstellt eine neue branch
+                </p>
+                <img src="../img/mkdir.png" alt="mkdir">
+            </article>
+            <article id="touch">
+                <h2>
+                    checkout
+                </h2>
+                <p>
+                    checkout gefolgt von dem branch-Namen, wechselt in die entsprechende branch.
+                </p>
+                <img src="../img/touch.png" alt="touch">
+            </article>
+            <article id="mv">
+                <h2>
+                    commit --amend
+                </h2>
+                <p>
+                    commit rückgängig machen
+                </p>
+                <img src="../img/mv.png" alt="mv">
+            </article>
+        </section>
+    </main>
+</body>
+</html>

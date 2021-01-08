@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLI Cheatsheet</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css'>
+    <script src="https://kit.fontawesome.com/69168a2f57.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">CLI</a>
+            <a href="assets/html/git.html">Git</a>
+        </nav>
+    </header>
+    <main>
+        <section class="title">
+            <article>
+                <h1>
+                    CLI-Cheatsheet
+                </h1>
+                <p>
+                    CLI ist die Abkürzung für "Call Level Interface". Das CLI ist die einfachste Möglichkeit der Interaktion mit einem Computer. Die Eingaben und Ausgaben erfolgen in einem sogenannten Terminal.
+                </p>
+                <p>
+                    Diese Seite gibt Informationen zu den grundlegendsten Befehlen für ein CLI. Klicke auf einen Befehl, um mehr darüber zu erfahren und Beispiele anzusehen.
+                </p>
+            </article>
+            <p class="icon"><i class="fas fa-terminal"></i></p>
+        </section>
+        <section class="secondary-menu">
+            <ul>
+                <li><a href="#pwd">pwd</a></li>
+                <li><a href="#ls">ls</a></li>
+                <li><a href="#cd">cd</a></li>
+                <li><a href="#cat">cat</a></li>
+                <li><a href="#mkdir">mkdir</a></li>
+                <li><a href="#touch">touch</a></li>
+                <li><a href="#mv">mv</a></li>
+                <li><a href="#cp">cp</a></li>
+                <li><a href="#rm">rm</a></li>
+            </ul>
+        </section>
+        <section class="cheatsheet">
+            <article id="pwd">
+                <h2>pwd</h2><span>(print working directoy)</span>
+                <p>
+                    <code>pwd</code>: Zeigt das Arbeitsverzeichnis an, in dem wir uns gerade befinden. In unserem Beispiel ist es der Home-Ordner des Benutzers (siehe Ausgabe in Zeile 2).
+                </p>
+                <img src="assets/img/pwd.png" alt="pwd">
+                <p><a href="#" class="top">Nach oben</a></p>
+            </article>
+            <article id="ls">
+                <h2>ls</h2><span>(list)</span>
+                <p>
+                    <code>ls</code>: Alle sichtbaren Dateien und Ordner anzeigen, die im Arbeitsverzeichnis liegen, in dem wir uns derzeit befinden.
+                </p>
+                <img src="assets/img/ls.png" alt="ls">
+                <p>
+                    <code>ls -l</code>: Alle sichtbaren Dateien und Ordner des derzeitigen Arbeitsverzeichnisses im Listenformat mit zusätzlichen Informationen anzeigen.
+                </p>
+                <img src="assets/img/lsl.png" alt="ls -l">
+                <p>
+                    <code>ls -a</code>: Alle Dateien und Ordner des derzeitigen Arbeitsverzeichnisses anzeigen – auch versteckte Ordner und Dateien.
+                </p>
+                <img src="assets/img/lsa.png" alt="ls -a">
+                <div class="info">
+                    <h3><i class="fas fa-lightbulb"></i> Kleiner Tipp</h3>
+                    <p>
+                        Die Befehle <code>ls -l</code> sowie <code>ls -a</code> können problemlos kombiniert werden, indem man den Befehl <code>ls -al</code> verwendet.
+                    </p>
+                </div>
+            </article>
+            <article id="cd">
+                <h2>cd</h2><span>(change directory)</span>
+                <p>
+                    <code>cd 'Verzeichnis'</code>: Mittels <code>cd</code> sowie zusätzlich der Angabe eines Ordners oder Verzeichnisses (in unserem Beispiel bewegen wir uns in den Ordner "Documents" per <code>cd Documents</code>).
+                </p>
+                <img src="assets/img/cd.png" alt="cd">
+                <div class="info">
+                    <h3><i class="fas fa-lightbulb"></i> Kleiner Tipp</h3>
+                    <p>
+                        Wird nur der Befehl <code>cd</code> ausgeführt – also ohne Angabe eines bestimmten Verzeichnisses oder Ordners – bewegen wir uns automatisch an den Ausgangspunkt: das Home-Verzeichnis des Benutzers.
+                    </p>
+                </div>
+            </article>
+            </article>
+            <article id="cat">
+                <h2>cat</h2><span>(concatenate)</span>
+                <p>
+                    Datei anzeigen lassen
+                </p>
+                <img src="assets/img/cat.png" alt="cat">
+                <p><a href="#" class="top">Nach oben</a></p>
+            </article>
+            <article id="mkdir">
+                <h2>mkdir</h2><span>(make directory)</span>
+                <p>
+                    Verzeichnis bzw. Ordner erstellen
+                </p>
+                <img src="assets/img/mkdir.png" alt="mkdir">
+                <p><a href="#" class="top">Nach oben</a></p>
+            </article>
+            <article id="touch">
+                <h2>
+                    touch
+                </h2>
+                <p>
+                    Datei erstellen
+                </p>
+                <img src="assets/img/touch.png" alt="touch">
+                <p><a href="#" class="top">Nach oben</a></p>
+            </article>
+            <article id="mv">
+                <h2>mv</h2><span>(move)</span>
+                <p>
+                    Datei oder Verzeichnis verschieben
+                </p>
+                <img src="assets/img/mv.png" alt="mv">
+                <p><a href="#" class="top">Nach oben</a></p>
+            </article>
+            <article id="cp">
+                <h2>cp</h2><span>(copy)</span>
+                <p>
+                    Datei oder Verzeichnis kopieren
+                </p>
+                <img src="assets/img/cp.png" alt="cp">
+                <p><a href="#" class="top">Nach oben</a></p>
+            </article>
+            <article id="rm">
+                <h2>rm</h2><span>(remove)</span>
+                <p>
+                    Datei oder Verzeichnis entfernen
+                </p>
+                <img src="assets/img/rm.png" alt="rm">
+                <p><a href="#" class="top">Nach oben</a></p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Erstellt von <a href="https://ferdinand-niemann.eu" target="_blank">Ferdinand Niemann</a> mit HTML5, CSS3 und einer Menge ♡</p>
+    </footer>
+</body>
+</html>

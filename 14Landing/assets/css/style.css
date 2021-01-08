@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;400;700;900&family=Playfair+Display:wght@700;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+    font-family: Exo;
+}
+
+header {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    color: #0A0908;
+}
+
+h1 {
+    margin: 0;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+header a,
+.logo a {
+    text-decoration: none;
+    color: #0A0908;
+}
+
+.logo a:hover {
+    color: #333;
+}
+
+.logo>a>i {
+    font-size: 48px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    display: block;
+    color: #999AC6;
+    text-align: center;
+}
+
+.top {
+    position: sticky;
+    top: 0;
+}
+
+.nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav ul>li {
+    display: inline-block;
+}
+
+ul>li>a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 31px;
+    font-size: 18px;
+    transition: 0.8s;
+}
+
+ul>li>a:hover {
+    background: #fff;
+    color: #999AC6;
+    transition: 0.8s;
+}
+
+.nav {
+    background: #999AC6;
+    padding: 15px;
+    top: 88px;
+    position: sticky;
+    text-align: center;
+}
+
+.hero {
+    height: 50vh;
+    background-image: url(../img/Desk3.jpeg), linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.5));
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    background-blend-mode: overlay;
+}
+
+.hero h2 {
+    font-family: Exo;
+    font-size: 48px;
+    padding-top: 150px;
+    padding-bottom: 25px;;
+    font-weight: 200;
+}
+
+.hero a,
+.products a {
+    color: #999AC6;
+    text-transform: uppercase;
+    border: 2px solid #999ac6;
+    padding: 15px;
+    text-decoration: none;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+.hero a:hover,
+.products a:hover {
+    color: white;
+    background: #999ac6;
+    transition: 0.8s;
+}
+
+.mission>article {
+    margin: 50px 15% 50px 15%;
+    min-height: 100vH;
+}
+
+.center {
+    text-align: center;
+    padding-top: 175px;
+}
+
+.center h2 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #999ac6;
+}
+
+.center p {
+    font-size: 24px;
+    text-align: justify;
+    width: 800px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.center .infos {
+    text-align: center;
+}
+
+.infos span {
+    padding: 15px;
+    margin: 0 50px 0 50px;
+    color: white;
+    background: #999ac6;
+    border-radius: 10px;
+    display: inline-block;
+    width: 150px;
+    font-size: 18px;
+}
+
+.mission {
+    background: url(../img/Desk1.jpeg), linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.6));
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: overlay;
+}
+
+.first {
+    background: url(../img/Desk2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 10%;
+}
+
+.second {
+    background: url(../img/Rucksack.jpeg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: left center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 10%;
+    padding-left: 60%;
+}
+
+.third {
+    background: url(../img/Chair.jpeg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 10%;
+}
+
+.products h3 {
+    font-size: 36px;
+    color: #999ac6;
+}
+
+.products p {
+    font-size: 24px;
+    padding-bottom: 50px;
+    width: 500px;
+}
+
+.products a {
+    margin-top: 50px;
+}
+
+.description {
+    text-align: justify;
+}
+
+.contact {
+    background-color: #999ac6;
+    color: white;
+}
+
+.contact h2 {
+    color: white;
+}
+
+.contact .infos span {
+    font-size: 48px;
+}
+
+.contact .infos {
+    padding-bottom: 150px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    border-bottom: dotted 1px #999ac6;
+}

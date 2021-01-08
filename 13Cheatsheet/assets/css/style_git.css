@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP';
+    background-color: #fff;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #444444;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 25px;
+}
+
+nav>a:hover {
+    background-color: #eeeeee;
+}
+
+.secondary-menu {
+    text-align: center;
+    background-color: #C5D86D;
+    padding: 5px;
+    position: sticky;
+    top: 83px;
+}
+
+.secondary-menu ul {
+    list-style: none;
+}
+
+ul {
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    color: #2B3E50;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 48px;
+    display: inline-block;
+}
+
+span {
+    font-size: 48px;
+    padding-left: 25px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 2;;
+}
+
+code {
+    padding: 0px 5px 0px 5px;
+    background-color: #2B3E50;
+    color: yellow;
+    border-radius: 2px;
+    display: inline-block;
+    font-family: Hack;
+}
+
+.cheatsheet {
+    margin: 50px 15% 50px 15%;
+}
+
+.cheatsheet article {
+    padding-top: 150px;
+}
+
+img {
+    max-width: 100%;
+    padding-bottom: 75px;
+}
+
+.top {
+    border-radius: 5px;
+    background-color: #2B3E50;
+    color: white;
+    text-decoration: none;
+    display: none;
+}
+
+footer>p>a {
+    text-decoration: none;
+    border-bottom: dotted 1px black;
+    color: black;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+}
+
+.title {
+    background: #2D2B55;
+    color: white;
+}
+
+.title h1 {
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.title p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.title>article {
+    margin: 0 35% 0 35%;
+    padding-top: 0;
+    text-align: justify;
+}
+
+.title .icon {
+    font-size: 36px;
+    padding-left: 15%;
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.info {
+    background-color: #B8DBD9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.info h3 {
+    text-align: center;
+    font-size: 48px;
+    color: #136F63;
+    margin-top: 0;
+}

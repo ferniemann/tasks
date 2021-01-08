@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto&display=swap');
+@font-face {
+    src: url(../fonts/Santio\ Bold.ttf);
+    font-family: santio;
+}
+
+body {
+    margin: 0;
+    font-family: santio;
+}
+
+#facts {
+    background-image: url(../img/cleo-topper.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+#sea {
+    height: 100vh;
+    background-image: url(../img/kid.png), url(../img/see.png);
+    background-size: 100%;
+}
+
+nav img {
+    width: 20px;
+}
+nav {
+    text-align: right;
+}
+
+nav a {
+    margin-right: 10%;
+    margin-left: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
