@@ -243,3 +243,9 @@ footer a {
     text-decoration: none;
     border-bottom: dotted 1px #999ac6;
 }
+
+.we {
+    color:#999ac6;
+    font-weight: 900;
+    text-transform: uppercase;
+}
