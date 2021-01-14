@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background-color: lightpink;
   font-family: sans-serif;
 }
 
@@ -28,7 +27,7 @@ h1 {
   display: inline-block;
   margin: 20px;
   transform: rotate(45deg);
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 .ball1:hover,
@@ -36,7 +35,7 @@ h1 {
 .ball3:hover,
 .ball4:hover {
   transform: scale(1.1);
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 .upper-half,

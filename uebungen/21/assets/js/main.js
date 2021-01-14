@@ -1,7 +1,16 @@
+// Function erstellen
 function changeColors1() {
+
+    // Hintergrund des body ändern
     document.body.style.backgroundColor = "#2f4858"
+
+    // Hintergrund der Headline ändern
     document.getElementById('headline').style.color = "#f6ae2d"
+
+    // Weißer Rand um ausgewähltes Farbschema
     document.getElementById('ball1').style.borderColor = "white"
+
+    // Andere Farbschemen mit nicht-sichtbarem Rand
     document.getElementById('ball2').style.borderColor = "transparent"
     document.getElementById('ball3').style.borderColor = "transparent"
     document.getElementById('ball4').style.borderColor = "transparent"
@@ -26,8 +35,8 @@ function changeColors3() {
 }
 
 function changeColors4() {
-    document.body.style.backgroundColor = "#00b9ae"
-    document.getElementById('headline').style.color = "#03312e"
+    document.body.style.backgroundColor = "#03312e"
+    document.getElementById('headline').style.color = "#00b9ae"
     document.getElementById('ball1').style.borderColor = "transparent"
     document.getElementById('ball2').style.borderColor = "transparent"
     document.getElementById('ball3').style.borderColor = "transparent"
