@@ -26,8 +26,8 @@ function changeColors2() {
 }
 
 function changeColors3() {
-    document.body.style.backgroundColor = "#defffc"
-    document.getElementById('headline').style.color = "#86626e"
+    document.body.style.backgroundColor = "#86626e"
+    document.getElementById('headline').style.color = "#defffc"
     document.getElementById('ball1').style.borderColor = "transparent"
     document.getElementById('ball2').style.borderColor = "transparent"
     document.getElementById('ball3').style.borderColor = "white"

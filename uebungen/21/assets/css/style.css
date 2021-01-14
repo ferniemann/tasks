@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  transition: 1s;
 }
 
 section {
@@ -11,6 +12,7 @@ h1 {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 48px;
+  transition: 1s;
 }
 
 .balls {
@@ -21,7 +23,8 @@ h1 {
 .ball1,
 .ball2,
 .ball3,
-.ball4 {
+.ball4,
+.inactive {
   border-radius: 200px;
   border: 5px solid transparent;
   display: inline-block;
@@ -33,8 +36,9 @@ h1 {
 .ball1:hover,
 .ball2:hover,
 .ball3:hover,
-.ball4:hover {
-  transform: scale(1.1);
+.ball4:hover,
+.inactive:hover {
+  transform: rotate(35deg) scale(1.1);
   transition: 0.5s;
 }
 
@@ -81,14 +85,14 @@ p {
 }
 
 #ball3 .upper-half {
-  background-color: #86626e;
-}
-
-#ball3 .lower-half {
   background-color: #defffc;
 }
 
-#ball3 .lower-half p {
+#ball3 .lower-half {
+  background-color: #86626e;
+}
+
+#ball3 .upper-half p {
   color: black;
 }
 
