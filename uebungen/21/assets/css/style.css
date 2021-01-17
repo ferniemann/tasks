@@ -15,16 +15,15 @@ h1 {
   transition: 1s;
 }
 
-.balls {
+.circle {
   display: inline-block;
   margin: auto;
 }
 
-.ball1,
-.ball2,
-.ball3,
-.ball4,
-.inactive {
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
   border-radius: 200px;
   border: 5px solid transparent;
   display: inline-block;
@@ -33,11 +32,10 @@ h1 {
   transition: 0.5s;
 }
 
-.ball1:hover,
-.ball2:hover,
-.ball3:hover,
-.ball4:hover,
-.inactive:hover {
+.circle1:hover,
+.circle2:hover,
+.circle3:hover,
+.circle4:hover {
   transform: rotate(35deg) scale(1.1);
   transition: 0.5s;
 }
@@ -64,42 +62,62 @@ p {
   margin: 0;
 }
 
-#ball1 .upper-half {
+#circle1 .upper-half {
   background-color: #f6ae2d;
 }
 
-#ball1 .lower-half {
+#circle1 .lower-half {
   background-color: #2f4858;
 }
 
-#ball2 .upper-half {
+#circle2 .upper-half {
   background-color: #710627;
 }
 
-#ball2 .lower-half {
+#circle2 .lower-half {
   background-color: #c5d86d;
 }
 
-#ball2 .lower-half p {
+#circle2 .lower-half p {
   color: black;
 }
 
-#ball3 .upper-half {
+#circle3 .upper-half {
   background-color: #defffc;
 }
 
-#ball3 .lower-half {
+#circle3 .lower-half {
   background-color: #86626e;
 }
 
-#ball3 .upper-half p {
+#circle3 .upper-half p {
   color: black;
 }
 
-#ball4 .upper-half {
+#circle4 .upper-half {
   background-color: #00b9ae;
 }
 
-#ball4 .lower-half {
+#circle4 .lower-half {
   background-color: #03312e;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+p.changeColor {
+  color: black;
+}
+
+a.changeColor {
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px dotted black;
+}
+
+.changecolor {
+  color: black;
 }

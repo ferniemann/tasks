@@ -1,0 +1,8 @@
+figure {
+  display: inline-block;
+}
+
+#gallery {
+  width: 90%;
+  margin: auto;
+}

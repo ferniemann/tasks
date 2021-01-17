@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Generator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Open+Sans&family=Roboto&family=Yusei+Magic&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <h2>Fonts Generator</h2>
+        <form action="" onsubmit="return false">
+            <input type="range" id="size" name="size" min="8" max="100" value="32" step="4" onChange="changeFontSize()">
+            <label for="size">Font-size</label>
+            <select name="fonts" id="fonts" onChange="changeFontSize()">
+                <option value="'Bodoni Moda', serif">'Bodoni Moda', serif</option>
+                <option value="'Open Sans', sans-serif">'Open Sans', sans-serif</option>
+                <option value="'Roboto', sans-serif">'Roboto', sans-serif</option>
+                <option value="'Yusei Magic', sans-serif">'Yusei Magic', sans-serif</option>
+            </select>
+            <input type="text" name="" id="text" placeholder="type something" value="type something" onChange="changeFontSize()">
+        </form>
+        <h1 id="headline"></h1>
+    </section>
+    <form action="">
+        <input type="range" name="" id="red" value="187" min="0" max="255" onchange="changeBackground()">
+        <input type="range" name="" id="green" value="186" min="0" max="255" onchange="changeBackground()">
+        <input type="range" name="" id="blue" value="198" min="0" max="255" onchange="changeBackground()">
+    </form>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
