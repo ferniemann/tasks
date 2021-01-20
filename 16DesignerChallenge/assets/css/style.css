@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+/* ### GENERAL STYLING ### */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: url(../img/ilustracion1.png) top right/60% no-repeat;
+}
+
+p {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 2;
+}
+
+/* ### HEADER ### */
+#logo {
+  width: 50px;
+  padding-right: 25px;
+}
+
+header {
+  padding: 25px 0 0 25px;
+  display: flex;
+  justify-content: baseline;
+}
+
+header h1,
+header p {
+  margin: 0;
+}
+
+/* ### HERO ### */
+/* HERO: Animation (floating guy) */
+@keyframes floating {
+  0% {
+    background-position: right -100px;
+  }
+
+  50% {
+    background-position: right -50px;
+  }
+
+  100% {
+    background-position: right -100px;
+  }
+}
+
+/* HERO: General styling */
+.intro {
+  background: url(../img/ilustracion_people.png) right top no-repeat;
+  background-size: 60%;
+  height: 70vh;
+  padding: 200px 40% 20vh 5%;
+  animation: floating 4s ease 0s infinite normal none running;
+}
+
+.intro article {
+  width: 75%;
+}
+
+.intro h1 {
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+
+.intro p:first-of-type {
+  display: inline;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 2;
+}
+
+.intro img {
+  width: 30px;
+}
+
+.intro p:last-of-type {
+  margin-top: 130px;
+  color: #ff3571;
+  font-weight: 700;
+}
+
+/* ### IMAGES ### */
+.images img {
+  display: block;
+  width: 100%;
+}
+
+/* ### EXPLANATION OF THE PROJECT ### */
+.explain {
+  padding: 200px 5% 0 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.explain h2 {
+  font-size: 56px;
+  margin: 0;
+  width: 30%;
+}
+
+.explain img {
+  width: 50px;
+}
+
+.explain p {
+  width: 55%;
+}
+
+/* ADVICES */
+.advices {
+  padding: 200px 7%;
+}
+
+.advices h2 {
+  font-size: 56px;
+  width: 60%;
+  margin-bottom: 150px;
+}
+
+#advices {
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#advices h3 {
+  margin: 0;
+}
+
+#advices > div {
+  display: flex;
+  align-items: flex-start;
+  width: 40%;
+  margin-bottom: 50px;
+}
+
+#advices div img {
+  width: 20px;
+}
+
+#advices div div {
+  margin: 0 0 0 20px;
+}
+
+/* ### CHALLENGE ### */
+.challenge {
+  padding: 0 5% 10vh 5%;
+}
+
+.challenge h2 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.challenge > p {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.challenge article {
+  margin: 100px 0;
+}
+
+.challenge article h3 {
+  font-size: 56px;
+  color: #dddddd;
+  margin-bottom: 50px;
+}
+
+.challenge article h4 {
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.challenge article p {
+  font-size: 28px;
+  padding-bottom: 50px;
+}
+
+/* CHALLENGE: The 4 steps */
+#step01 {
+  background: url(../img/step01.png) left/contain no-repeat;
+  padding-left: 50%;
+}
+
+#step02 {
+  background: url(../img/step02.png) right/contain no-repeat;
+  padding-right: 50%;
+}
+
+#step03 {
+  background: url(../img/step03.png) left/contain no-repeat;
+  padding-left: 50%;
+}
+
+#step04 {
+  background: url(../img/step04.png) right/contain no-repeat;
+  padding-right: 50%;
+}
+
+/* ### SUBSCRIBE ### */
+.subscribe {
+  padding: 0 5% 10vh 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.subscribe h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.subscribe p {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.email {
+  background: #fff;
+  width: 50%;
+  margin: 0 auto 50px;
+  height: 75px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 0 10px #dddddd;
+  display: block;
+}
+
+.button {
+  width: 30%;
+  margin: 0 auto;
+  font-size: 28px;
+  padding: 20px 0;
+  background: #ff3571;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background: linear-gradient(to right, #ff3571, #3c30ff);
+}
+
+/* Subcription form: Success message */
+#confirm {
+  background: rgb(159, 233, 144);
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px;
+  display: none;
+}
+
+#confirm p {
+  font-size: 18px;
+}
+/* ### FOOTER ### */
+footer {
+  padding: 0 5% 10px;
+  display: flex;
+  align-items: baseline;
+}
+
+footer img {
+  width: 25px;
+  padding-left: 10px;
+}
