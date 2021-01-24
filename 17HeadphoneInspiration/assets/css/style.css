@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Work Sans";
+  background: #2e2e2e;
+  color: #ebccc2;
+  font-weight: 300;
+}
+
+p {
+  font-weight: 200;
+  line-height: 2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 100px 25px 50px;
+  position: sticky;
+  top: 25px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  background: url(../img/logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+nav {
+  flex-direction: row;
+  justify-content: flex-end;
+  display: flex;
+  margin-top: 15px;
+}
+
+nav > ul {
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  margin: 0;
+}
+
+nav > ul > li {
+  display: flex;
+}
+
+nav > ul > li > a {
+  color: #ebccc2;
+  text-decoration: none;
+  font-weight: 300;
+  transition: 0.5s;
+}
+
+li > a:hover {
+  color: white;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.social {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.social li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+aside {
+  position: fixed;
+  margin: 5% 0 auto 50px;
+}
+
+aside a {
+  text-decoration: none;
+  color: #867772;
+  transition: 0.5s;
+}
+
+aside a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+aside ul li {
+  padding-top: 100px;
+  list-style: none;
+  position: relative;
+}
+
+aside ul li:first-of-type {
+  padding-top: 25px;
+}
+
+.current {
+  color: white;
+}
+
+.active {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  border: 2px solid white;
+  border-radius: 100%;
+  display: inline-block;
+  left: -61px;
+  bottom: -4px;
+}
+
+.circle {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  border: 2px solid rgb(115, 115, 115);
+  border-radius: 100%;
+  display: inline-block;
+  left: -55px;
+  bottom: 2px;
+}
+
+.line {
+  position: absolute;
+  height: 70px;
+  width: 1px;
+  background-color: rgb(115, 115, 115);
+  display: inline-block;
+  left: -47px;
+  bottom: -75px;
+}
+
+.intro {
+  margin: 0 5% 10% 5%;
+}
+
+.intro article {
+  padding-top: 3%;
+  margin: 0 0 15% 35%;
+}
+
+.about-img {
+  background-image: url(../img/section-about-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 500px;
+  padding-bottom: 500px;
+}
+
+.design-alchemy {
+  margin: 0 15% 15% 15%;
+  background: url(../img/BS1_NYC_Home.webp);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.design-alchemy article {
+  margin-left: 40%;
+}
+
+.split {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-img {
+  background-size: contain;
+  margin-top: -100px;
+  padding-right: 55vw;
+  height: 100vh;
+}
+
+.lounger {
+  background: url(../img/section-voyager.jpg);
+}
