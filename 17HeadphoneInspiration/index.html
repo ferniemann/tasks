@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!-- START: HEADER -->
     <header>
+        <!-- Only on larger screens: -->
         <div class="desktop">
+            <!-- Logo as Background image: -->
             <div class="logo"></div>
+            <!-- Contact navigation on top: -->
             <nav>
                 <ul>
                     <li><a href="#">Subscribe & Contact</a></li>
@@ -24,11 +28,15 @@
                 </ul>
             </nav>
         </div>
+        <!-- Only displayed on smaller screens: -->
         <div class="mobile-header">
             <div class="logo"></div>
         </div>
     </header>
+    <!-- END: HEADER -->
+    <!-- START: MAIN -->
     <main>
+        <!-- Sidebar menu in aside element (only visible on larger screens): -->
         <aside>
             <ul>
                 <li><span class="active"></span><span class="circle"></span><span class="line"></span><a
@@ -42,6 +50,7 @@
                 <li><span class="circle"></span><a href="assets/html/shop.html">SHOP</a></li>
             </ul>
         </aside>
+        <!-- Sections: -->
         <section class="intro">
             <article>
                 <h1>
@@ -64,7 +73,11 @@
             </article>
         </section>
     </main>
+    <!-- END: MAIN -->
+    <!-- START: FOOTER -->
+    <!-- Only displayed on smaller screens: -->
     <footer class="mobile-nav">
+        <!-- Mobile menu (as sort of pop up on click): -->
         <div id="mobile-menu">
             <nav>
                 <ul>
@@ -90,13 +103,17 @@
                 <li><a href="assets/html/shop.html">SHOP</a></li>
             </ul>
         </div>
+        <!-- Toggle button for opening the mobile menu: -->
         <div id="toggleOpen" onclick="toggleMenu()">
             <p>Menu</p>
         </div>
+        <!-- Toggle button for closing the mobile menu: -->
         <div id="toggleClose" onclick="toggleMenuClose()">
             <p>Close</p>
         </div>
     </footer>
+    <!-- END: FOOTER -->
 </body>
+<!-- Script for toggleMenu() and toggleMenuClose() functions: -->
 <script src="assets/js/main.js"></script>
 </html>
