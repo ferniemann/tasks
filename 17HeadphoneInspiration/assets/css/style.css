@@ -44,11 +44,17 @@ h3 {
 /* ### HEADER ### */
 /* Header section as "display: flex" with logo left and nav right */
 header {
+  top: 25px;
+  position: sticky;
+}
+
+.desktop {
   display: flex;
   justify-content: space-between;
   margin: 25px 100px 25px 50px;
   position: sticky;
   top: 25px;
+  align-items: center;
 }
 
 .logo {
@@ -63,7 +69,10 @@ nav {
   flex-direction: row;
   justify-content: flex-end;
   display: flex;
-  margin-top: 15px;
+}
+
+.mobile-header {
+  display: none;
 }
 
 /* Styling nav */
@@ -206,6 +215,10 @@ aside ul li:first-of-type {
 /* Description text */
 .design-alchemy article {
   margin-left: 40%;
+}
+
+.mobile-img {
+  display: none;
 }
 
 /* ### CONTAINER FOR PAGES: LOUNGER, EXPERIENCE, SHOP ### */
@@ -362,5 +375,109 @@ aside ul li:first-of-type {
   }
   aside ul li:first-of-type {
     padding-top: 0px;
+  }
+}
+
+.mobile-nav {
+  display: none;
+  text-align: center;
+}
+
+#toggleOpen,
+#toggleClose {
+  display: inline-block;
+  position: fixed;
+  bottom: 0px;
+  width: 100px;
+  padding: 10px 10px;
+  background: #ebccc2;
+  box-shadow: 0 0 20px #222;
+  z-index: 0;
+}
+
+#toggleClose {
+  display: none;
+}
+
+#toggleOpen p,
+#toggleClose p {
+  margin: 0;
+}
+
+#mobile-menu {
+  width: 100%;
+  min-height: 50vh;
+  background-color: #ebccc2;
+  line-height: 4;
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  z-index: 1;
+}
+
+#mobile-menu nav {
+  font-size: 12px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#mobile-menu ul {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+#mobile-menu a {
+  color: #2e2e2e;
+}
+
+@media (max-width: 900px) {
+  aside {
+    display: none;
+  }
+  header {
+    position: relative;
+    height: 100px;
+  }
+  .mobile-header {
+    display: flex;
+    justify-content: space-around;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  .intro {
+    margin: 0 5% 10% 5%;
+  }
+
+  .intro article {
+    margin: 0;
+    text-align: center;
+  }
+
+  /* Big image for about page */
+  .about-img {
+    background-image: url(../img/BS1_NYC_Home.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  /* Product image */
+  .design-alchemy {
+    margin: 0 15% 15% 15%;
+    background: none;
+  }
+
+  /* Description text */
+  .design-alchemy article {
+    margin: 0;
+    display: block;
   }
 }
