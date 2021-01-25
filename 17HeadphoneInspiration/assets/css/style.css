@@ -116,7 +116,9 @@ li > a:hover {
 /* Sidebar menu as "aside" element */
 aside {
   position: fixed;
-  margin: 5% 0 auto 50px;
+  top: 50%;
+  left: 3%;
+  transform: translateY(-50%);
 }
 
 aside a {
@@ -139,7 +141,7 @@ aside ul li {
 }
 
 aside ul li:first-of-type {
-  padding-top: 25px;
+  padding-top: 0;
 }
 
 /* Change font color for menu item of current page */
