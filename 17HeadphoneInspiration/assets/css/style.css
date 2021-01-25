@@ -425,9 +425,11 @@ aside ul li:first-of-type {
 }
 
 #mobile-menu nav {
+  display: flex;
   font-size: 12px;
   justify-content: center;
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 #mobile-menu ul {
@@ -555,7 +557,7 @@ aside ul li:first-of-type {
   /* Product description text with centered text */
   #shop.right-text {
     margin: 0;
-    margin-bottom: 20%;
+    margin-bottom: 30%;
   }
   /* ### PAGE: INSPIRATION ### */
   /* Container for page */
@@ -597,10 +599,29 @@ aside ul li:first-of-type {
   .img-2 {
     display: none;
   }
-
+  @media (max-width: 1000px) {
+  }
   /* Text elements using a little bit less than half the container's width to leave space between images and texts */
   .tile-text {
     width: 100%;
+  }
+}
+@media (max-width: 410px) {
+  #mobile-menu nav li {
+    margin: 5px;
+    font-size: 11px;
+  }
+  #mobile-menu nav {
+    margin-bottom: 20px;
+  }
+  #mobile-menu a {
+    font-weight: 400;
+  }
+}
+@media (max-width: 350px) {
+  #mobile-menu nav li {
+    margin: 3px;
+    font-size: 10px;
   }
 }
 @media (max-height: 460px) {
