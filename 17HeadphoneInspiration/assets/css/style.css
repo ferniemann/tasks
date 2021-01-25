@@ -418,6 +418,8 @@ aside ul li:first-of-type {
   bottom: 50px;
   z-index: 1;
   font-weight: 300;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #mobile-menu nav {
@@ -597,5 +599,10 @@ aside ul li:first-of-type {
   /* Text elements using a little bit less than half the container's width to leave space between images and texts */
   .tile-text {
     width: 100%;
+  }
+}
+@media (max-height: 460px) {
+  #mobile-menu {
+    line-height: 2;
   }
 }
