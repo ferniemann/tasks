@@ -123,11 +123,13 @@ aside a {
   text-decoration: none;
   color: #867772;
   transition: 0.5s;
+  border-bottom: none;
 }
 
 aside a:hover {
   color: #fff;
   text-decoration: none;
+  border-bottom: none;
 }
 
 aside ul li {
@@ -402,6 +404,8 @@ aside ul li:first-of-type {
 #toggleOpen p,
 #toggleClose p {
   margin: 0;
+  color: #2e2e2e;
+  font-weight: 400;
 }
 
 #mobile-menu {
@@ -413,6 +417,7 @@ aside ul li:first-of-type {
   position: fixed;
   bottom: 50px;
   z-index: 1;
+  font-weight: 300;
 }
 
 #mobile-menu nav {
@@ -431,8 +436,12 @@ aside ul li:first-of-type {
   color: #2e2e2e;
 }
 
+#current {
+  font-weight: bold;
+}
+
 /* ### MOBILE VERSION ### */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   aside {
     display: none;
   }
@@ -453,6 +462,17 @@ aside ul li:first-of-type {
   .mobile-nav {
     display: flex;
     justify-content: center;
+  }
+  li > a {
+    text-decoration: none;
+  }
+  li > a:hover {
+    color: white;
+    transition: 0.5s;
+    border-bottom: none;
+  }
+  p {
+    font-weight: 300;
   }
   .intro {
     margin: 0 5% 10% 5%;
